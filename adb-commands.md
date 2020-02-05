@@ -18,6 +18,8 @@ adb shell pm uninstall com.app.package.name
 
 adb shell reboot
 
+adb shell reboot -p
+
 adb logcat
 
 Use the switch -s to specify a device, in case there are multiple devices/emulators available.
