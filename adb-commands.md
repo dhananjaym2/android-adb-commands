@@ -23,3 +23,5 @@ adb shell reboot -p
 adb logcat
 
 Use the switch -s to specify a device, in case there are multiple devices/emulators available.
+
+adb shell setprop debug.firebase.analytics.app com.zinier.app.ticket
